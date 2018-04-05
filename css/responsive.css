@@ -1,0 +1,163 @@
+/*
+
+
+phones 
+@media screen and (max-width: 320px){
+	
+    }
+   
+/*}*/
+
+
+
+@media screen and (min-width: 320px) and (max-width: 600px){
+
+	/*.intro.name {
+	font-size: 10px;
+	width: 200px; 
+	}
+*/
+	div.intro {
+	text-align: right;
+	display: flex;
+	justify-content: right;
+	width: 300px;
+	
+}
+
+	p.name {
+	font-size: 13px;
+	color: white;
+	
+}
+/*.mypic{
+	width:100%;
+}
+*/
+
+
+
+
+	.productgrid, .socialgrid, .uxgrid {
+		display: grid; 
+	  	grid-template-columns: 1;
+	  	grid-template-rows: 10;
+	  	grid-row-gap: 0px;
+	  	grid-column-gap: 30px;
+	  	justify-content: space
+	  	padding-top: 50px;
+
+
+}
+
+
+
+
+.product1, .social1, .ux1 {
+	grid-row: 1;
+	border-radius: 1%;
+	grid-column: 1;
+	width: 350px;
+	
+}
+
+.productwords1, .socialwords1, .uxwords1 {
+	grid-row: 2;
+	grid-column: 1;
+	font-size: 100%;
+	
+}
+.product2, .social2, .ux2 {
+	grid-row: 3;
+	border-radius: 1%;
+	grid-column: 1;
+	width: 350px;
+	
+}
+.productwords2, .socialwords2, .uxwords2{
+	grid-row: 4;
+	grid-column: 1;
+	font-size: 100%;
+}
+.product3, .social3, .ux3 {
+	grid-row: 5;
+	border-radius: 1%;
+	grid-column: 1;
+	width: 350px;
+}
+.productwords3, .socialwords3, .uxwords3{
+	grid-row: 6;
+	grid-column: 1;
+	font-size: 100%;
+
+}
+.product4, .social4, .ux4 {
+	grid-row: 7;
+	border-radius: 1%;
+	grid-column: 1;
+	width: 350px;
+
+}
+.productwords4, .socialwords4, .uxwords4 {
+	grid-row: 8;
+	grid-column: 1;
+	font-size: 100%;
+	
+}
+.product5, .ux5 {
+	grid-row: 9;
+	border-radius: 1%;
+	grid-column: 1;
+	width: 350px;
+}
+.productwords5, .uxwords5 {
+	grid-row: 10;
+	grid-column: 1;
+	font-size: 100%;
+}
+
+
+}
+
+
+
+/* Desktops and laptops ---------- */
+/*@media screen and (min-width: 1224px){
+*/    /* styles */
+/*}*/
+
+
+@media screen and (min-width: 600px) and (max-width: 1000px){
+	.social1, .social2, .social3, .social4 {
+		width: 350px;
+
+	}
+
+	.socialwords1, .socialwords2, .socialwords3, .socialwords4 {
+		font-size: 100%;
+
+	}
+
+	.ux1, .ux2, .ux3, .ux4, .ux5 {
+		width: 350px;
+	}
+
+	.uxwords1, .uxwords2, .uxwords3, .uxwords4, .uxwords5 {
+			font-size: 100%;
+
+		}
+	.product1, .product2, .product3, .product4, .product5 {
+		width: 350px;
+	}
+
+	.productwords1, .productwords2, .productwords3, .productwords4, .productwords5 {
+		font-size: 100%;
+
+	}
+/*	img.pic{
+	width:20%;
+	margin-left:2%;*/
+
+
+}
+}
